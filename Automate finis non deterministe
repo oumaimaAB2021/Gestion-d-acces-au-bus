@@ -1,0 +1,21 @@
+// Automate finis non deterministe
+digraph "Graphe d'un automate fini" {
+	s1 [label=s1]
+	s1 [label=s1]
+	s2 [label=s2]
+	s2 [label=s2]
+	s3 [label=s3]
+	s3 [label=s3]
+	s1 -> s1 [label=a]
+	node [shape=doublecircle]
+	s1 -> s3 [label=a]
+	node [shape=doublecircle]
+	s2 -> s2 [label=b]
+	node [shape=doublecircle]
+	s2 -> s3 [label=b]
+	node [shape=doublecircle]
+	s3 -> s3 [label=c]
+	node [shape=doublecircle]
+	s3 -> s4 [label=c]
+	node [shape=doublecircle]
+}

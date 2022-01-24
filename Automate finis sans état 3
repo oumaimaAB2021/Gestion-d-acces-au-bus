@@ -1,0 +1,15 @@
+// Automate finis sans état 3
+digraph "Graphe d'un automate fini" {
+	"Barre Bloquée" [label="Barre Bloquée"]
+	"Barre Bloquée" [label="Barre Bloquée"]
+	"Barre Débloquée" [label="Barre Débloquée"]
+	"Tapis Ouvert" [label="Tapis Ouvert"]
+	"Barre Bloquée" -> "Barre Débloquée" [label=Solde]
+	node [shape=doublecircle]
+	"Barre Bloquée" -> "Tapis Ouvert" [label="Bouton: Handicapé"]
+	node [shape=doublecircle]
+	"Barre Débloquée" -> "Barre Bloquée" [label="Temps dépassé"]
+	node [shape=doublecircle]
+	"Tapis Ouvert" -> "Barre Débloquée" [label=Solde]
+	node [shape=doublecircle]
+}

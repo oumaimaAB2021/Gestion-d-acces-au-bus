@@ -1,0 +1,15 @@
+// Automate finis non complet
+digraph "Graphe d'un automate fini" {
+	s1 [label=s1]
+	s1 [label=s1]
+	s2 [label=s2]
+	s1 [label=s1]
+	s1 -> s1 [label=a]
+	node [shape=doublecircle]
+	s1 -> s2 [label=a]
+	node [shape=doublecircle]
+	s2 -> s2 [label=b]
+	node [shape=doublecircle]
+	s1 -> s2 [label=b]
+	node [shape=doublecircle]
+}
