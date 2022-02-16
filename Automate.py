@@ -91,7 +91,7 @@ class Automate:
         fin=[]
         for j in listFinale:
             final=Etat(j,'finale')
-            fin.append(initiale)
+            fin.append(final)
         return alpha,etats,init,fin,trans
     
     #Creation d'un automate
